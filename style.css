@@ -6,4 +6,5 @@ body{
 
 .login-main{
     height: 100vh; /* 100% da altura do viewport! */
+    background: linear-gradient(125deg, #8b939a, #5b6467);
 }
