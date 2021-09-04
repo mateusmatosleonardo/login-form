@@ -55,3 +55,15 @@ body{
     background-color: #ccc;
     transition: .3s ease-in-out;
 }
+
+/* BORDER EFECT */
+
+.input-border::after{
+    content: ''; /* */
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 14px;
+    background: linear-gradient(125deg, #8b939a, #5b6467);
+    transition: .3s ease-in-out;
+}
