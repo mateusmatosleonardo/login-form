@@ -53,4 +53,5 @@ body{
     width: 100%;
     margin-bottom: 14px;
     background-color: #ccc;
+    transition: .3s ease-in-out;
 }
