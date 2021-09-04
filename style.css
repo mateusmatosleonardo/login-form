@@ -47,3 +47,10 @@ body{
     outline: none;
     font-size: 14px;
 }
+
+.input-border{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 14px;
+    background-color: #ccc;
+}
