@@ -48,6 +48,10 @@ body{
     font-size: 14px;
 }
 
+.login-input:focus + .input-border::after{
+    width: 100%;
+}
+
 .input-border{
     height: 1px;
     width: 100%;
@@ -83,6 +87,10 @@ body{
     border-radius: 4px;
     cursor: pointer;
     transition: .5s ease-in-out;
+}
+
+.login-submit:hover{
+    background-position: right;
 }
 
 .reset{
